@@ -1,0 +1,285 @@
+[22-Oct-2019 17:07:30 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/timross/Local Sites/pluginprac/app/public/wp-includes/update.php on line 160
+[22-Oct-2019 17:07:30 UTC] PHP Stack trace:
+[22-Oct-2019 17:07:30 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-cron.php:0
+[22-Oct-2019 17:07:30 UTC] PHP   2. do_action_ref_array() /Users/timross/Local Sites/pluginprac/app/public/wp-cron.php:133
+[22-Oct-2019 17:07:30 UTC] PHP   3. WP_Hook->do_action() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/plugin.php:531
+[22-Oct-2019 17:07:30 UTC] PHP   4. WP_Hook->apply_filters() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/class-wp-hook.php:310
+[22-Oct-2019 17:07:30 UTC] PHP   5. wp_version_check() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/class-wp-hook.php:286
+[22-Oct-2019 17:07:30 UTC] PHP   6. trigger_error() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/update.php:160
+[22-Oct-2019 17:07:30 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/timross/Local Sites/pluginprac/app/public/wp-includes/update.php on line 384
+[22-Oct-2019 17:07:30 UTC] PHP Stack trace:
+[22-Oct-2019 17:07:30 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-cron.php:0
+[22-Oct-2019 17:07:30 UTC] PHP   2. do_action_ref_array() /Users/timross/Local Sites/pluginprac/app/public/wp-cron.php:133
+[22-Oct-2019 17:07:30 UTC] PHP   3. WP_Hook->do_action() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/plugin.php:531
+[22-Oct-2019 17:07:30 UTC] PHP   4. WP_Hook->apply_filters() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/class-wp-hook.php:310
+[22-Oct-2019 17:07:30 UTC] PHP   5. wp_update_plugins() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/class-wp-hook.php:286
+[22-Oct-2019 17:07:30 UTC] PHP   6. trigger_error() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/update.php:384
+[22-Oct-2019 17:07:30 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/timross/Local Sites/pluginprac/app/public/wp-includes/update.php on line 569
+[22-Oct-2019 17:07:30 UTC] PHP Stack trace:
+[22-Oct-2019 17:07:30 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-cron.php:0
+[22-Oct-2019 17:07:30 UTC] PHP   2. do_action_ref_array() /Users/timross/Local Sites/pluginprac/app/public/wp-cron.php:133
+[22-Oct-2019 17:07:30 UTC] PHP   3. WP_Hook->do_action() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/plugin.php:531
+[22-Oct-2019 17:07:30 UTC] PHP   4. WP_Hook->apply_filters() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/class-wp-hook.php:310
+[22-Oct-2019 17:07:30 UTC] PHP   5. wp_update_themes() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/class-wp-hook.php:286
+[22-Oct-2019 17:07:30 UTC] PHP   6. trigger_error() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/update.php:569
+[23-Oct-2019 01:19:22 UTC] PHP Parse error:  syntax error, unexpected 'myplugin_action_hook_example' (T_STRING) in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/sample-plugin/simple-ex-plugin.php on line 13
+[23-Oct-2019 01:20:03 UTC] PHP Parse error:  syntax error, unexpected ')', expecting '{' in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/sample-plugin/simple-ex-plugin.php on line 21
+[23-Oct-2019 01:20:05 UTC] PHP Parse error:  syntax error, unexpected ')', expecting '{' in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/sample-plugin/simple-ex-plugin.php on line 21
+[23-Oct-2019 01:20:38 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ';' in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/sample-plugin/simple-ex-plugin.php on line 25
+[23-Oct-2019 02:16:03 UTC] PHP Parse error:  syntax error, unexpected 'myplugin_on_activation' (T_STRING) in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/sample-plugin/simple-ex-plugin.php on line 14
+[02-Nov-2019 19:26:38 UTC] PHP Parse error:  syntax error, unexpected ',' in /Users/timross/Local Sites/pluginprac/app/public/wp-includes/default-constants.php on line 76
+[02-Nov-2019 19:30:33 UTC] PHP Parse error:  syntax error, unexpected 'wp' (T_STRING) in /Users/timross/Local Sites/pluginprac/app/public/wp-includes/default-constants.php on line 76
+[02-Nov-2019 19:38:25 UTC] PHP Parse error:  syntax error, unexpected 'wp' (T_STRING) in /Users/timross/Local Sites/pluginprac/app/public/wp-includes/default-constants.php on line 76
+[02-Nov-2019 19:38:26 UTC] PHP Parse error:  syntax error, unexpected 'wp' (T_STRING) in /Users/timross/Local Sites/pluginprac/app/public/wp-includes/default-constants.php on line 76
+[02-Nov-2019 19:38:40 UTC] PHP Parse error:  syntax error, unexpected ',' in /Users/timross/Local Sites/pluginprac/app/public/wp-includes/default-constants.php on line 76
+[02-Nov-2019 20:07:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/myplugin.php on line 53
+[02-Nov-2019 20:15:59 UTC] PHP Warning:  Use of undefined constant ___FILE___ - assumed '___FILE___' (this will throw an Error in a future version of PHP) in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/myplugin.php on line 24
+[02-Nov-2019 20:15:59 UTC] PHP Stack trace:
+[02-Nov-2019 20:15:59 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin-ajax.php:0
+[02-Nov-2019 20:15:59 UTC] PHP   2. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin-ajax.php:22
+[02-Nov-2019 20:15:59 UTC] PHP   3. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-load.php:37
+[02-Nov-2019 20:15:59 UTC] PHP   4. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-config.php:77
+[02-Nov-2019 20:15:59 UTC] PHP   5. include_once() /Users/timross/Local Sites/pluginprac/app/public/wp-settings.php:362
+[02-Nov-2019 20:15:59 UTC] PHP Warning:  require_once(./admin.admin-menu.php): failed to open stream: No such file or directory in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/myplugin.php on line 24
+[02-Nov-2019 20:15:59 UTC] PHP Stack trace:
+[02-Nov-2019 20:15:59 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin-ajax.php:0
+[02-Nov-2019 20:15:59 UTC] PHP   2. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin-ajax.php:22
+[02-Nov-2019 20:15:59 UTC] PHP   3. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-load.php:37
+[02-Nov-2019 20:15:59 UTC] PHP   4. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-config.php:77
+[02-Nov-2019 20:15:59 UTC] PHP   5. include_once() /Users/timross/Local Sites/pluginprac/app/public/wp-settings.php:362
+[02-Nov-2019 20:15:59 UTC] PHP Fatal error:  require_once(): Failed opening required './admin.admin-menu.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/myplugin.php on line 24
+[02-Nov-2019 20:15:59 UTC] PHP Stack trace:
+[02-Nov-2019 20:15:59 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin-ajax.php:0
+[02-Nov-2019 20:15:59 UTC] PHP   2. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin-ajax.php:22
+[02-Nov-2019 20:15:59 UTC] PHP   3. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-load.php:37
+[02-Nov-2019 20:15:59 UTC] PHP   4. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-config.php:77
+[02-Nov-2019 20:15:59 UTC] PHP   5. include_once() /Users/timross/Local Sites/pluginprac/app/public/wp-settings.php:362
+[02-Nov-2019 20:16:01 UTC] PHP Warning:  Use of undefined constant ___FILE___ - assumed '___FILE___' (this will throw an Error in a future version of PHP) in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/myplugin.php on line 24
+[02-Nov-2019 20:16:01 UTC] PHP Stack trace:
+[02-Nov-2019 20:16:01 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:0
+[02-Nov-2019 20:16:01 UTC] PHP   2. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:34
+[02-Nov-2019 20:16:01 UTC] PHP   3. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-load.php:37
+[02-Nov-2019 20:16:01 UTC] PHP   4. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-config.php:77
+[02-Nov-2019 20:16:01 UTC] PHP   5. include_once() /Users/timross/Local Sites/pluginprac/app/public/wp-settings.php:362
+[02-Nov-2019 20:16:01 UTC] PHP Warning:  require_once(./admin.admin-menu.php): failed to open stream: No such file or directory in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/myplugin.php on line 24
+[02-Nov-2019 20:16:01 UTC] PHP Stack trace:
+[02-Nov-2019 20:16:01 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:0
+[02-Nov-2019 20:16:01 UTC] PHP   2. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:34
+[02-Nov-2019 20:16:01 UTC] PHP   3. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-load.php:37
+[02-Nov-2019 20:16:01 UTC] PHP   4. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-config.php:77
+[02-Nov-2019 20:16:01 UTC] PHP   5. include_once() /Users/timross/Local Sites/pluginprac/app/public/wp-settings.php:362
+[02-Nov-2019 20:16:01 UTC] PHP Fatal error:  require_once(): Failed opening required './admin.admin-menu.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/myplugin.php on line 24
+[02-Nov-2019 20:16:01 UTC] PHP Stack trace:
+[02-Nov-2019 20:16:01 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:0
+[02-Nov-2019 20:16:01 UTC] PHP   2. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:34
+[02-Nov-2019 20:16:01 UTC] PHP   3. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-load.php:37
+[02-Nov-2019 20:16:01 UTC] PHP   4. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-config.php:77
+[02-Nov-2019 20:16:01 UTC] PHP   5. include_once() /Users/timross/Local Sites/pluginprac/app/public/wp-settings.php:362
+[02-Nov-2019 20:19:10 UTC] PHP Warning:  Use of undefined constant ___FILE___ - assumed '___FILE___' (this will throw an Error in a future version of PHP) in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/myplugin.php on line 24
+[02-Nov-2019 20:19:10 UTC] PHP Stack trace:
+[02-Nov-2019 20:19:10 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:0
+[02-Nov-2019 20:19:10 UTC] PHP   2. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:34
+[02-Nov-2019 20:19:10 UTC] PHP   3. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-load.php:37
+[02-Nov-2019 20:19:10 UTC] PHP   4. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-config.php:77
+[02-Nov-2019 20:19:10 UTC] PHP   5. include_once() /Users/timross/Local Sites/pluginprac/app/public/wp-settings.php:362
+[02-Nov-2019 20:19:10 UTC] PHP Warning:  require_once(./admin.admin-menu.php): failed to open stream: No such file or directory in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/myplugin.php on line 24
+[02-Nov-2019 20:19:10 UTC] PHP Stack trace:
+[02-Nov-2019 20:19:10 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:0
+[02-Nov-2019 20:19:10 UTC] PHP   2. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:34
+[02-Nov-2019 20:19:10 UTC] PHP   3. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-load.php:37
+[02-Nov-2019 20:19:10 UTC] PHP   4. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-config.php:77
+[02-Nov-2019 20:19:10 UTC] PHP   5. include_once() /Users/timross/Local Sites/pluginprac/app/public/wp-settings.php:362
+[02-Nov-2019 20:19:10 UTC] PHP Fatal error:  require_once(): Failed opening required './admin.admin-menu.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/myplugin.php on line 24
+[02-Nov-2019 20:19:10 UTC] PHP Stack trace:
+[02-Nov-2019 20:19:10 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:0
+[02-Nov-2019 20:19:10 UTC] PHP   2. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:34
+[02-Nov-2019 20:19:10 UTC] PHP   3. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-load.php:37
+[02-Nov-2019 20:19:10 UTC] PHP   4. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-config.php:77
+[02-Nov-2019 20:19:10 UTC] PHP   5. include_once() /Users/timross/Local Sites/pluginprac/app/public/wp-settings.php:362
+[02-Nov-2019 20:19:12 UTC] PHP Warning:  Use of undefined constant ___FILE___ - assumed '___FILE___' (this will throw an Error in a future version of PHP) in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/myplugin.php on line 24
+[02-Nov-2019 20:19:12 UTC] PHP Stack trace:
+[02-Nov-2019 20:19:12 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:0
+[02-Nov-2019 20:19:12 UTC] PHP   2. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:34
+[02-Nov-2019 20:19:12 UTC] PHP   3. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-load.php:37
+[02-Nov-2019 20:19:12 UTC] PHP   4. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-config.php:77
+[02-Nov-2019 20:19:12 UTC] PHP   5. include_once() /Users/timross/Local Sites/pluginprac/app/public/wp-settings.php:362
+[02-Nov-2019 20:19:12 UTC] PHP Warning:  require_once(./admin.admin-menu.php): failed to open stream: No such file or directory in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/myplugin.php on line 24
+[02-Nov-2019 20:19:12 UTC] PHP Stack trace:
+[02-Nov-2019 20:19:12 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:0
+[02-Nov-2019 20:19:12 UTC] PHP   2. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:34
+[02-Nov-2019 20:19:12 UTC] PHP   3. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-load.php:37
+[02-Nov-2019 20:19:12 UTC] PHP   4. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-config.php:77
+[02-Nov-2019 20:19:12 UTC] PHP   5. include_once() /Users/timross/Local Sites/pluginprac/app/public/wp-settings.php:362
+[02-Nov-2019 20:19:12 UTC] PHP Fatal error:  require_once(): Failed opening required './admin.admin-menu.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/myplugin.php on line 24
+[02-Nov-2019 20:19:12 UTC] PHP Stack trace:
+[02-Nov-2019 20:19:12 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:0
+[02-Nov-2019 20:19:12 UTC] PHP   2. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:34
+[02-Nov-2019 20:19:12 UTC] PHP   3. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-load.php:37
+[02-Nov-2019 20:19:12 UTC] PHP   4. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-config.php:77
+[02-Nov-2019 20:19:12 UTC] PHP   5. include_once() /Users/timross/Local Sites/pluginprac/app/public/wp-settings.php:362
+[02-Nov-2019 20:25:29 UTC] PHP Warning:  Use of undefined constant ___FILE___ - assumed '___FILE___' (this will throw an Error in a future version of PHP) in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/myplugin.php on line 24
+[02-Nov-2019 20:25:29 UTC] PHP Stack trace:
+[02-Nov-2019 20:25:29 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:0
+[02-Nov-2019 20:25:29 UTC] PHP   2. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:34
+[02-Nov-2019 20:25:29 UTC] PHP   3. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-load.php:37
+[02-Nov-2019 20:25:29 UTC] PHP   4. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-config.php:77
+[02-Nov-2019 20:25:29 UTC] PHP   5. include_once() /Users/timross/Local Sites/pluginprac/app/public/wp-settings.php:362
+[02-Nov-2019 20:25:29 UTC] PHP Warning:  require_once(./admin.admin-menu.php): failed to open stream: No such file or directory in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/myplugin.php on line 24
+[02-Nov-2019 20:25:29 UTC] PHP Stack trace:
+[02-Nov-2019 20:25:29 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:0
+[02-Nov-2019 20:25:29 UTC] PHP   2. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:34
+[02-Nov-2019 20:25:29 UTC] PHP   3. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-load.php:37
+[02-Nov-2019 20:25:29 UTC] PHP   4. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-config.php:77
+[02-Nov-2019 20:25:29 UTC] PHP   5. include_once() /Users/timross/Local Sites/pluginprac/app/public/wp-settings.php:362
+[02-Nov-2019 20:25:29 UTC] PHP Fatal error:  require_once(): Failed opening required './admin.admin-menu.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/myplugin.php on line 24
+[02-Nov-2019 20:25:29 UTC] PHP Stack trace:
+[02-Nov-2019 20:25:29 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:0
+[02-Nov-2019 20:25:29 UTC] PHP   2. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:34
+[02-Nov-2019 20:25:29 UTC] PHP   3. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-load.php:37
+[02-Nov-2019 20:25:29 UTC] PHP   4. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-config.php:77
+[02-Nov-2019 20:25:29 UTC] PHP   5. include_once() /Users/timross/Local Sites/pluginprac/app/public/wp-settings.php:362
+[02-Nov-2019 20:25:50 UTC] PHP Warning:  Use of undefined constant ___FILE___ - assumed '___FILE___' (this will throw an Error in a future version of PHP) in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/myplugin.php on line 24
+[02-Nov-2019 20:25:50 UTC] PHP Stack trace:
+[02-Nov-2019 20:25:50 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/index.php:0
+[02-Nov-2019 20:25:50 UTC] PHP   2. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/index.php:10
+[02-Nov-2019 20:25:50 UTC] PHP   3. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:34
+[02-Nov-2019 20:25:50 UTC] PHP   4. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-load.php:37
+[02-Nov-2019 20:25:50 UTC] PHP   5. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-config.php:77
+[02-Nov-2019 20:25:50 UTC] PHP   6. include_once() /Users/timross/Local Sites/pluginprac/app/public/wp-settings.php:362
+[02-Nov-2019 20:25:50 UTC] PHP Warning:  require_once(./admin.admin-menu.php): failed to open stream: No such file or directory in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/myplugin.php on line 24
+[02-Nov-2019 20:25:50 UTC] PHP Stack trace:
+[02-Nov-2019 20:25:50 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/index.php:0
+[02-Nov-2019 20:25:50 UTC] PHP   2. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/index.php:10
+[02-Nov-2019 20:25:50 UTC] PHP   3. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:34
+[02-Nov-2019 20:25:50 UTC] PHP   4. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-load.php:37
+[02-Nov-2019 20:25:50 UTC] PHP   5. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-config.php:77
+[02-Nov-2019 20:25:50 UTC] PHP   6. include_once() /Users/timross/Local Sites/pluginprac/app/public/wp-settings.php:362
+[02-Nov-2019 20:25:50 UTC] PHP Fatal error:  require_once(): Failed opening required './admin.admin-menu.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/myplugin.php on line 24
+[02-Nov-2019 20:25:50 UTC] PHP Stack trace:
+[02-Nov-2019 20:25:50 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/index.php:0
+[02-Nov-2019 20:25:50 UTC] PHP   2. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/index.php:10
+[02-Nov-2019 20:25:50 UTC] PHP   3. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:34
+[02-Nov-2019 20:25:50 UTC] PHP   4. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-load.php:37
+[02-Nov-2019 20:25:50 UTC] PHP   5. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-config.php:77
+[02-Nov-2019 20:25:50 UTC] PHP   6. include_once() /Users/timross/Local Sites/pluginprac/app/public/wp-settings.php:362
+[03-Nov-2019 17:32:47 UTC] PHP Warning:  Use of undefined constant _FILE_ - assumed '_FILE_' (this will throw an Error in a future version of PHP) in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/myplugin.php on line 24
+[03-Nov-2019 17:32:47 UTC] PHP Stack trace:
+[03-Nov-2019 17:32:47 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/index.php:0
+[03-Nov-2019 17:32:47 UTC] PHP   2. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/index.php:10
+[03-Nov-2019 17:32:47 UTC] PHP   3. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:34
+[03-Nov-2019 17:32:47 UTC] PHP   4. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-load.php:37
+[03-Nov-2019 17:32:47 UTC] PHP   5. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-config.php:77
+[03-Nov-2019 17:32:47 UTC] PHP   6. include_once() /Users/timross/Local Sites/pluginprac/app/public/wp-settings.php:362
+[03-Nov-2019 17:32:47 UTC] PHP Warning:  require_once(./admin.admin-menu.php): failed to open stream: No such file or directory in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/myplugin.php on line 24
+[03-Nov-2019 17:32:47 UTC] PHP Stack trace:
+[03-Nov-2019 17:32:47 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/index.php:0
+[03-Nov-2019 17:32:47 UTC] PHP   2. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/index.php:10
+[03-Nov-2019 17:32:47 UTC] PHP   3. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:34
+[03-Nov-2019 17:32:47 UTC] PHP   4. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-load.php:37
+[03-Nov-2019 17:32:47 UTC] PHP   5. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-config.php:77
+[03-Nov-2019 17:32:47 UTC] PHP   6. include_once() /Users/timross/Local Sites/pluginprac/app/public/wp-settings.php:362
+[03-Nov-2019 17:32:47 UTC] PHP Fatal error:  require_once(): Failed opening required './admin.admin-menu.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/myplugin.php on line 24
+[03-Nov-2019 17:32:47 UTC] PHP Stack trace:
+[03-Nov-2019 17:32:47 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/index.php:0
+[03-Nov-2019 17:32:47 UTC] PHP   2. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/index.php:10
+[03-Nov-2019 17:32:47 UTC] PHP   3. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:34
+[03-Nov-2019 17:32:47 UTC] PHP   4. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-load.php:37
+[03-Nov-2019 17:32:47 UTC] PHP   5. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-config.php:77
+[03-Nov-2019 17:32:47 UTC] PHP   6. include_once() /Users/timross/Local Sites/pluginprac/app/public/wp-settings.php:362
+[03-Nov-2019 17:34:47 UTC] PHP Warning:  require_once(/Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/admin.admin-menu.php): failed to open stream: No such file or directory in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/myplugin.php on line 24
+[03-Nov-2019 17:34:47 UTC] PHP Stack trace:
+[03-Nov-2019 17:34:47 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/index.php:0
+[03-Nov-2019 17:34:47 UTC] PHP   2. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/index.php:10
+[03-Nov-2019 17:34:47 UTC] PHP   3. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:34
+[03-Nov-2019 17:34:47 UTC] PHP   4. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-load.php:37
+[03-Nov-2019 17:34:47 UTC] PHP   5. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-config.php:77
+[03-Nov-2019 17:34:47 UTC] PHP   6. include_once() /Users/timross/Local Sites/pluginprac/app/public/wp-settings.php:362
+[03-Nov-2019 17:34:47 UTC] PHP Fatal error:  require_once(): Failed opening required '/Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/admin.admin-menu.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/myplugin.php on line 24
+[03-Nov-2019 17:34:47 UTC] PHP Stack trace:
+[03-Nov-2019 17:34:47 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/index.php:0
+[03-Nov-2019 17:34:47 UTC] PHP   2. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/index.php:10
+[03-Nov-2019 17:34:47 UTC] PHP   3. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:34
+[03-Nov-2019 17:34:47 UTC] PHP   4. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-load.php:37
+[03-Nov-2019 17:34:47 UTC] PHP   5. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-config.php:77
+[03-Nov-2019 17:34:47 UTC] PHP   6. include_once() /Users/timross/Local Sites/pluginprac/app/public/wp-settings.php:362
+[03-Nov-2019 17:48:16 UTC] PHP Warning:  require_once(/Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/admin.admin-menu.php): failed to open stream: No such file or directory in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/myplugin.php on line 24
+[03-Nov-2019 17:48:16 UTC] PHP Stack trace:
+[03-Nov-2019 17:48:16 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/index.php:0
+[03-Nov-2019 17:48:16 UTC] PHP   2. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/index.php:10
+[03-Nov-2019 17:48:16 UTC] PHP   3. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:34
+[03-Nov-2019 17:48:16 UTC] PHP   4. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-load.php:37
+[03-Nov-2019 17:48:16 UTC] PHP   5. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-config.php:77
+[03-Nov-2019 17:48:16 UTC] PHP   6. include_once() /Users/timross/Local Sites/pluginprac/app/public/wp-settings.php:362
+[03-Nov-2019 17:48:16 UTC] PHP Fatal error:  require_once(): Failed opening required '/Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/admin.admin-menu.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/myplugin.php on line 24
+[03-Nov-2019 17:48:16 UTC] PHP Stack trace:
+[03-Nov-2019 17:48:16 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/index.php:0
+[03-Nov-2019 17:48:16 UTC] PHP   2. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/index.php:10
+[03-Nov-2019 17:48:16 UTC] PHP   3. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:34
+[03-Nov-2019 17:48:16 UTC] PHP   4. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-load.php:37
+[03-Nov-2019 17:48:16 UTC] PHP   5. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-config.php:77
+[03-Nov-2019 17:48:16 UTC] PHP   6. include_once() /Users/timross/Local Sites/pluginprac/app/public/wp-settings.php:362
+[03-Nov-2019 18:06:47 UTC] PHP Warning:  require_once(/Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/admin.settings-page.php): failed to open stream: No such file or directory in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/myplugin.php on line 25
+[03-Nov-2019 18:06:47 UTC] PHP Stack trace:
+[03-Nov-2019 18:06:47 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/index.php:0
+[03-Nov-2019 18:06:47 UTC] PHP   2. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/index.php:10
+[03-Nov-2019 18:06:47 UTC] PHP   3. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:34
+[03-Nov-2019 18:06:47 UTC] PHP   4. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-load.php:37
+[03-Nov-2019 18:06:47 UTC] PHP   5. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-config.php:77
+[03-Nov-2019 18:06:47 UTC] PHP   6. include_once() /Users/timross/Local Sites/pluginprac/app/public/wp-settings.php:362
+[03-Nov-2019 18:06:47 UTC] PHP Fatal error:  require_once(): Failed opening required '/Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/admin.settings-page.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/myplugin.php on line 25
+[03-Nov-2019 18:06:47 UTC] PHP Stack trace:
+[03-Nov-2019 18:06:47 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/index.php:0
+[03-Nov-2019 18:06:47 UTC] PHP   2. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/index.php:10
+[03-Nov-2019 18:06:47 UTC] PHP   3. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-admin/admin.php:34
+[03-Nov-2019 18:06:47 UTC] PHP   4. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-load.php:37
+[03-Nov-2019 18:06:47 UTC] PHP   5. require_once() /Users/timross/Local Sites/pluginprac/app/public/wp-config.php:77
+[03-Nov-2019 18:06:47 UTC] PHP   6. include_once() /Users/timross/Local Sites/pluginprac/app/public/wp-settings.php:362
+[03-Nov-2019 18:07:06 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /Users/timross/Local Sites/pluginprac/app/public/wp-content/plugins/myplugin/admin/settings-page.php on line 4
+[09-Nov-2019 03:49:30 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/timross/Local Sites/pluginprac/app/public/wp-includes/update.php on line 160
+[09-Nov-2019 03:49:30 UTC] PHP Stack trace:
+[09-Nov-2019 03:49:30 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-cron.php:0
+[09-Nov-2019 03:49:30 UTC] PHP   2. do_action_ref_array() /Users/timross/Local Sites/pluginprac/app/public/wp-cron.php:133
+[09-Nov-2019 03:49:30 UTC] PHP   3. WP_Hook->do_action() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/plugin.php:531
+[09-Nov-2019 03:49:30 UTC] PHP   4. WP_Hook->apply_filters() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/class-wp-hook.php:310
+[09-Nov-2019 03:49:30 UTC] PHP   5. wp_version_check() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/class-wp-hook.php:286
+[09-Nov-2019 03:49:30 UTC] PHP   6. trigger_error() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/update.php:160
+[09-Nov-2019 03:49:30 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/timross/Local Sites/pluginprac/app/public/wp-includes/update.php on line 384
+[09-Nov-2019 03:49:30 UTC] PHP Stack trace:
+[09-Nov-2019 03:49:30 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-cron.php:0
+[09-Nov-2019 03:49:30 UTC] PHP   2. do_action_ref_array() /Users/timross/Local Sites/pluginprac/app/public/wp-cron.php:133
+[09-Nov-2019 03:49:30 UTC] PHP   3. WP_Hook->do_action() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/plugin.php:531
+[09-Nov-2019 03:49:30 UTC] PHP   4. WP_Hook->apply_filters() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/class-wp-hook.php:310
+[09-Nov-2019 03:49:30 UTC] PHP   5. wp_update_plugins() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/class-wp-hook.php:286
+[09-Nov-2019 03:49:30 UTC] PHP   6. trigger_error() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/update.php:384
+[09-Nov-2019 03:49:30 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/timross/Local Sites/pluginprac/app/public/wp-includes/update.php on line 569
+[09-Nov-2019 03:49:30 UTC] PHP Stack trace:
+[09-Nov-2019 03:49:30 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-cron.php:0
+[09-Nov-2019 03:49:30 UTC] PHP   2. do_action_ref_array() /Users/timross/Local Sites/pluginprac/app/public/wp-cron.php:133
+[09-Nov-2019 03:49:30 UTC] PHP   3. WP_Hook->do_action() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/plugin.php:531
+[09-Nov-2019 03:49:30 UTC] PHP   4. WP_Hook->apply_filters() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/class-wp-hook.php:310
+[09-Nov-2019 03:49:30 UTC] PHP   5. wp_update_themes() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/class-wp-hook.php:286
+[09-Nov-2019 03:49:30 UTC] PHP   6. trigger_error() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/update.php:569
+[09-Nov-2019 15:54:12 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/timross/Local Sites/pluginprac/app/public/wp-includes/update.php on line 160
+[09-Nov-2019 15:54:12 UTC] PHP Stack trace:
+[09-Nov-2019 15:54:12 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-cron.php:0
+[09-Nov-2019 15:54:12 UTC] PHP   2. do_action_ref_array() /Users/timross/Local Sites/pluginprac/app/public/wp-cron.php:133
+[09-Nov-2019 15:54:12 UTC] PHP   3. WP_Hook->do_action() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/plugin.php:531
+[09-Nov-2019 15:54:12 UTC] PHP   4. WP_Hook->apply_filters() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/class-wp-hook.php:310
+[09-Nov-2019 15:54:12 UTC] PHP   5. wp_version_check() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/class-wp-hook.php:286
+[09-Nov-2019 15:54:12 UTC] PHP   6. trigger_error() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/update.php:160
+[09-Nov-2019 15:54:12 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/timross/Local Sites/pluginprac/app/public/wp-includes/update.php on line 384
+[09-Nov-2019 15:54:12 UTC] PHP Stack trace:
+[09-Nov-2019 15:54:12 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-cron.php:0
+[09-Nov-2019 15:54:12 UTC] PHP   2. do_action_ref_array() /Users/timross/Local Sites/pluginprac/app/public/wp-cron.php:133
+[09-Nov-2019 15:54:12 UTC] PHP   3. WP_Hook->do_action() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/plugin.php:531
+[09-Nov-2019 15:54:12 UTC] PHP   4. WP_Hook->apply_filters() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/class-wp-hook.php:310
+[09-Nov-2019 15:54:12 UTC] PHP   5. wp_update_plugins() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/class-wp-hook.php:286
+[09-Nov-2019 15:54:12 UTC] PHP   6. trigger_error() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/update.php:384
+[09-Nov-2019 15:54:12 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/timross/Local Sites/pluginprac/app/public/wp-includes/update.php on line 569
+[09-Nov-2019 15:54:12 UTC] PHP Stack trace:
+[09-Nov-2019 15:54:12 UTC] PHP   1. {main}() /Users/timross/Local Sites/pluginprac/app/public/wp-cron.php:0
+[09-Nov-2019 15:54:12 UTC] PHP   2. do_action_ref_array() /Users/timross/Local Sites/pluginprac/app/public/wp-cron.php:133
+[09-Nov-2019 15:54:12 UTC] PHP   3. WP_Hook->do_action() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/plugin.php:531
+[09-Nov-2019 15:54:12 UTC] PHP   4. WP_Hook->apply_filters() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/class-wp-hook.php:310
+[09-Nov-2019 15:54:12 UTC] PHP   5. wp_update_themes() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/class-wp-hook.php:286
+[09-Nov-2019 15:54:12 UTC] PHP   6. trigger_error() /Users/timross/Local Sites/pluginprac/app/public/wp-includes/update.php:569
